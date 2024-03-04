@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root
+{
+    --primary-color:  aliceblue;
+    --secondary-color:#121212;
+}
+
+
+body{
+    background:var(--primary-color);
+    min-height:120vh;
+    overflow-x: hidden;
+  /* background-image: url(./bookcutout.jpg) ; */
+  background-image: linear-gradient(to bottom, #89cff0, #b1c9f6, #d7c2eb, #eebfd6, #f4c2c2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:var(--secondary-color);
+  
+}
+
+header{
+position: absolute;
+top:0;
+width:100%;
+padding: 30px 100px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+/* z-index:1000; */
+}
+
+.logo{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Pacifico',cursive;
+}
+
+
+.navigation{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+.navigation li{
+    list-style: none;
+}
+
+.active{
+    background-color:#112434 ;
+    color:white !important; 
+    border-radius: 45px;
+    height:27px;
+    
+}
+
+.navigation ul li{
+    position: absolute;
+    top: 10vh;
+}
+
+.navigation li a{
+    text-decoration: none;
+    padding: 7px 15px;
+    color:#112434;
+     border-radius: 20px;
+}
+
+.navigation li a:hover{
+    background-color: #112434;
+    color:var(--primary-color);
+}
+
+
+.content{
+position:relative;
+top:160px;
+padding-left: 96px;
+padding-right: 10px;
+}
+/* 
+.content ul li :nth-child(1){
+    margin-top: 42px;
+} */
+
+.content ul li{
+    list-style-type: none;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+     background-image: linear-gradient(to bottom, #89cff0, #b1c9f6, #d7c2eb, #eebfd6, #f4c2c2);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.header {
+    max-height:20vh;
+    padding: 60px;
+    text-align: center;
+    /* background: #1abc9c; */
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+#REFERENCES{
+    position: absolute;
+    top: 27vh;
+    left: 14vw;
+    border-color: #121212;
+}
+
+#FICTION{
+    position: absolute;
+    top: 27vh;
+    left: 44vw;
+}
+
+#MAGIZINES{
+    position: absolute;
+    top: 27vh;
+    left: 74vw;
+}
+
+#JAVA{
+    position: absolute;
+    top: 54vh;
+    right: 14vw;
+}
+
+
+#DATA{
+    position: absolute;
+    top:54vh;
+    left:14vw;
+  }
+
+#DATA button{
+    background-color: cornflowerblue;
+    color: #121212;
+}
+
+#maths button{
+    background-color: rgb(200, 236, 224);
+    color: darkblue;
+     }
+   
+#maths{
+    position: absolute;
+    top: 54vh;
+    left: 43vw;
+}
+   
+
+#co button{
+background-color: #112434;
+color: white;
+}
+
+#co{
+     position: absolute;
+     top: 80vh;
+     right: 42vw;
+}
+  
+  #dsgt {
+    position: absolute;
+    top: 80vh;
+    right: 13vw;
+}
+
+  #cn{
+    position: absolute;
+    top:80vh;
+    left:13vw;
+  }
+
+  #cn button{
+background-color:rgb(233, 121, 183);
+color:#112434
+}

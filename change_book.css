@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+    font-family: sans-serif;
+}
+
+body{
+    /* background-image: url("./back.jpg"); */
+    background-image: linear-gradient(to bottom, #89cff0, #b1c9f6, #d7c2eb, #eebfd6, #f4c2c2);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.logo{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Pacifico',cursive;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.box{
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    background-color: rgb(8, 8, 8,0.7);
+    box-shadow: 4px 3px 2px rgba(1,1,1,0.1);
+    border-radius: 10px;
+}
+
+.box h1{
+    text-align: center;
+    color: orange;
+}
+
+.form_control1{
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    font-size: larger;
+}
+
+
+.form_control2{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-bottom: 80px;
+    font-size: larger;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+input,select,textarea{           /* The boxes are styled using this */
+    padding: 6px 10px;
+    width:350px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.but{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    background-color: orange;
+    box-shadow: 10px black;
+}
+
+button:hover{
+    background-color: #B1AFFF;
+    color: white;
+}
